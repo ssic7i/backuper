@@ -4,9 +4,8 @@ import sys
 
 line_in = sys.argv
 
-filelist = line_in[1]
+filelist = line_in[1] #file contain list of files
 dest_folder = line_in[2]
-#filelist = 'list.txt'
 f = open(filelist, 'r')
 list_files = ''
 for line in f:
